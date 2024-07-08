@@ -1,0 +1,39 @@
+#holder{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10% ;
+}
+#cards_holder{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 17%;
+    height: 45%;
+}
+.imgHolder{
+    width: 100%;
+    height: 80%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.stuffName{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
