@@ -13,6 +13,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: antiquewhite;
 }
 .stuff{
     width: 100px;

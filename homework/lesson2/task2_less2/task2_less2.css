@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+#holder{
+    height: 99vh;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    background-color: #034403;
+}
+#cards_holder{
+    width: 100%;
+    height: 700px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 15%;
+    height: 300px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    font-size: medium;
+}
