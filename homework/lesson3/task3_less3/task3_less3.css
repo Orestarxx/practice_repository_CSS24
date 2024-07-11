@@ -1,0 +1,36 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+#first_box, #second_box, #third_box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#first_box{
+    background-color: #0a0a79;
+}
+#second_box{
+    background-color: #8bbeb4;
+}
+#third_box{
+    background-color: #b09f9f;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+p{
+    font-size: 25px;
+}
+.content_holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 32%;
+}
