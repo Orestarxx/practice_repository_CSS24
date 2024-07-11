@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.colour_blue{
+    background-color: #0a0a79;
+}
+.top_box{
+    height: 30vh;
+}
+.middle_box{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom_box{
+    height: 80vh;
+}
+.middle_mini_box{
+    width: 25%;
+    height: 90%;
+}
+.top_box, .middle_mini_box, .bottom_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
