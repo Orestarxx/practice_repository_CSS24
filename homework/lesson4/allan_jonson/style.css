@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------header--------*/
+header{
+    height: 10vh;
+    display: flex;
+    font-family: "Orbitron", sans-serif;
+    background-color: white;
+}
+header div{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    width: 60%;
+    align-content: center;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #b09f9f;
+    transition: 2s;
+}
+header nav ul a:hover{
+    color: #032c03;
+    transition: 1s;
+}
+/*-------section---------*/
+section{
+    height: 90vh;
+    background-image: url("https://github.com/dianaklr/May-2024/blob/main/CW/lessons/Lesson%205/Allan%20Jonson/img.jpg?raw=true");
+    font-family: "Orbitron", sans-serif;
+    background-size: cover;
+}
