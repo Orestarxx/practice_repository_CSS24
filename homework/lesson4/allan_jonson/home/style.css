@@ -39,16 +39,19 @@ header nav ul a:hover{
 }
 /*-------section---------*/
 .home_page{
-    height: 90vh;
-    background-image: url("https://github.com/dianaklr/May-2024/blob/main/CW/lessons/Lesson%205/Allan%20Jonson/img.jpg?raw=true");
     font-family: "Orbitron", sans-serif;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     gap: 50px;
 }
+section{
+    background-image: url("https://github.com/dianaklr/May-2024/blob/main/CW/lessons/Lesson%205/Allan%20Jonson/img.jpg?raw=true");
+    background-size: cover;
+    height: 90vh;
+}
+
 .first_text{
     margin-top: 10vh;
 }
@@ -71,3 +74,4 @@ section button:hover{
     transform: scale(1.2);
     transition:1.2s;
 }
+

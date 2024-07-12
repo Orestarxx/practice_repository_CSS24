@@ -1,0 +1,9 @@
+.information_box{
+    width: 20%;
+    height: 45%;
+    background-color: #68136b;
+}.contact_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
