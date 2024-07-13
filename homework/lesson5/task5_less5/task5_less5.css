@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 20vh;
+    background: #8D8484;
+}
+main{
+    height: 60vh;
+    display: flex;
+}
+main div{
+    width: 73vw;
+    height: 60vh;
+}
+main div section{
+    width: 73vw;
+    height: 20vh;
+}
+.first_section{
+    background: #776969;
+}
+.second_section{
+    background: #643030;
+}
+.third_section{
+    background: #441818;
+}
+main aside{
+    width: 27vw;
+    height: 60vh;
+}
+main aside div{
+    width: 27vw;
+    height: 30vh;
+}
+.first_division{
+    background: #937575;
+}
+.second_division{
+    background: #644C4C;
+}
+footer{
+    height: 20vh;
+    background: #BDBDBD;
+}
