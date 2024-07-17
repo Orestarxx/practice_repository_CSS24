@@ -53,7 +53,7 @@ form{
     background-size: cover;
 }
 #checkbox:checked{
-    background-image: url("icons/icons8-done-24.png");
+    background-image: url("homework/lesson8/icons/icons8-done-24.png");
 }
 .checkbox_and_submit_holder{
     width: 100%;
