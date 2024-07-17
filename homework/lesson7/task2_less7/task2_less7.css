@@ -57,6 +57,11 @@ main div ul{
     color: #AD0306;
     font-size: 36px;
     font-weight: 400;
+    transition: 1s;
+}
+.price:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
 .first, .second, .third, .forth, .fifth, .sixth{
     font-size: 13px;
