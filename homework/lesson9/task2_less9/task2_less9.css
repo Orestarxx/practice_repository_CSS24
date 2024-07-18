@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:wght@100..900&display=swap');
 body{
     background: #1E1E1E;
 }
@@ -11,7 +11,6 @@ body{
 /*----------header--------*/
 header{
     height: 10vh;
-    border: 1px solid;
     display: flex;
     align-items: center;
     justify-content:flex-end;
@@ -65,7 +64,7 @@ header ul li{
 .Second_img{
     position: absolute;
 }
-.Section_one{
+.Section_one, .Section_two, .Section_three, .Section_four{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,4 +93,98 @@ header ul li{
 }
 .Left>p {
     padding-left: 150px;
+}
+.Right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 34px;
+}
+.Right>p{
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 139.896%; /* 33.575px */
+    letter-spacing: -0.48px;
+    font-family: Inter;
+    width: 521px;
+}
+.Button_AboutUs{
+    width: 176px;
+    height: 60px;
+    border: 4px solid #1E1E1E;
+    background: #E9E3DC;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+
+    /* DropShadow */
+    box-shadow: 8px 8px 0px 0px #000;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+/*----------section two----------*/
+.Section_two>div{
+    width: 1340px;
+    height: 754px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+.Img_section_two_holder_one, .Img_section_two_holder_two{
+    width: 40%;
+    height: 600px;
+    border-radius: 30px;
+    border: 4px solid #E9E3DC;
+    background-size: cover;
+}
+.Img_section_two_holder_two{
+    background-image: url("images_less9/bigBurger.png");
+}
+.Img_section_two_holder_one{
+    background-image: url("images_less9/fries.png");
+}
+/*---------section three---------*/
+.Img_three{
+    width: 1340px;
+    height: 503px;
+    margin-bottom: 64px;
+}
+/*--------section four---------*/
+.Section_four>h1{
+    width: 895px;
+    color: #E9E3DC;
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.896%; /* 71.328px */
+    text-transform: uppercase;
+}
+.Section_four>div{
+    width: 196px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #D1EF53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 33px;
+    color: #1E1E1E;
+
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
 }
