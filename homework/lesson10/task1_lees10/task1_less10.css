@@ -1,0 +1,125 @@
+.holder{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#sun{
+animation: sunny 2s ease-in-out infinite;
+}
+#mercury{
+    animation: loadMer 2.1s ease-out infinite;
+}
+#venus{
+    animation: loading 2.2s ease-in-out infinite;
+}
+#earth{
+    animation: loading 2.3s ease-in-out infinite;
+}
+#mars{
+    animation: loading 2.4s ease-in-out infinite;
+}
+#jupiter{
+    animation: loading 2.5s ease-in-out infinite;
+}
+#saturn{
+    animation: loading 2.6s ease-in-out infinite;
+}
+#uranus{
+    animation: loading 2.7s ease-in-out infinite;
+}
+#neptune{
+    animation: loading 2.8s ease-in-out infinite;
+}
+ @keyframes sunny {
+     from {
+         transform: translateY(-20%);
+         transition: 2s;
+     }
+     to{
+     transform: translateY(0%);
+         transition: 2s;
+     }
+ }
+@keyframes loadMer {
+    from {
+        transform: translateY(-20%);
+        transition: 2.2s;
+    }
+    to{
+        transform: translateY(0%);
+        transition: 2.2s;
+    }
+}
+@keyframes loadVen {
+    from {
+        transform: translateY(-20%);
+        transition: 2.2s;
+    }
+    to{
+        transform: translateY(0%);
+        transition: 2.2s;
+    }
+}
+@keyframes loadMer {
+    from {
+        transform: translateY(-20%);
+        transition: 2.2s;
+    }
+    to{
+        transform: translateY(0%);
+        transition: 2.2s;
+    }
+}
+@keyframes loadMer {
+    from {
+        transform: translateY(-20%);
+        transition: 2.2s;
+    }
+    to{
+        transform: translateY(0%);
+        transition: 2.2s;
+    }
+}
+@keyframes loadMer {
+    from {
+        transform: translateY(-20%);
+        transition: 2.2s;
+    }
+    to{
+        transform: translateY(0%);
+        transition: 2.2s;
+    }
+}
+@keyframes loadMer {
+    from {
+        transform: translateY(-20%);
+        transition: 2.2s;
+    }
+    to{
+        transform: translateY(0%);
+        transition: 2.2s;
+    }
+}
+@keyframes loadMer {
+    from {
+        transform: translateY(-20%);
+        transition: 2.2s;
+    }
+    to{
+        transform: translateY(0%);
+        transition: 2.2s;
+    }
+}
+@keyframes loadMer {
+    from {
+        transform: translateY(-20%);
+        transition: 2.2s;
+    }
+    to{
+        transform: translateY(0%);
+        transition: 2.2s;
+    }
+}
+
