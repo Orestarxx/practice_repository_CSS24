@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*------header------*/
+header{
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8.17px 0 8px;
+}
+header>ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 35px;
+}
+/*-------nav-----*/
+nav{
+    width: 95vw;
+    height: 13vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    background: rgba(245, 245, 247, 0.60);
+    backdrop-filter: blur(10px);
+}
+nav>div{
+    width: 100px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+nav>div>svg{
+    width: 80px;
+    display: flex;
+}
+nav>div>p{
+    color: #1D1D1F;
+
+    text-align: center;
+    font-size: 11.813px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 135.45% */
+    letter-spacing: -0.12px;
+
+}
+/*--------main--------*/
+main{
+    background: #F5F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 98vw;
+    height: 130vh;
+}
+main>h1{
+    color: #1D1D1F;
+     margin-top: 67px ;
+    text-align: center;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px; /* 100% */
+    letter-spacing: -1.44px;
+}
+main>p{
+    width: 976px;
+    height: 112px;
+    color: #86868B;
+    text-align: center;
+    font-size: 21.563px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 129.855% */
+    letter-spacing: 0.216px;
+    margin-top: 57px;
+}
