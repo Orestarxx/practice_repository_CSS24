@@ -33,11 +33,20 @@ nav{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 30px;
+    gap: 15px;
     background: rgba(245, 245, 247, 0.60);
     backdrop-filter: blur(10px);
 }
-nav>div{
+.navHolder{
+    width: 70vw;
+    height: 13vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    animation: rightAppear 0.4s ease 1;
+}
+.navHolder>div{
     width: 100px;
     height: 80%;
     display: flex;
@@ -45,11 +54,11 @@ nav>div{
     flex-direction: column;
     justify-content: flex-end;
 }
-nav>div>svg{
+.navHolder>div>svg{
     width: 80px;
     display: flex;
 }
-nav>div>p{
+.navHolder>div>p{
     color: #1D1D1F;
 
     text-align: center;
@@ -70,9 +79,14 @@ main{
     width: 98vw;
     height: 130vh;
 }
-main>h1{
+
+main>img{
+    animation: pictureAppear 1s ease 1 ;
+    margin-bottom: 50px;
+}
+.textHolder>h1{
     color: #1D1D1F;
-     margin-top: 67px ;
+     margin-top: 40px ;
     text-align: center;
     font-size: 96px;
     font-style: normal;
@@ -80,7 +94,7 @@ main>h1{
     line-height: 96px; /* 100% */
     letter-spacing: -1.44px;
 }
-main>p{
+.textHolder>p{
     width: 976px;
     height: 112px;
     color: #86868B;
@@ -91,4 +105,49 @@ main>p{
     line-height: 28px; /* 129.855% */
     letter-spacing: 0.216px;
     margin-top: 57px;
+}
+.textHolder{
+    animation: textAppear 1s ease 1;
+}
+@keyframes rightAppear {
+    from{
+      transform: translate(200px);
+    }
+    to{
+     transform: translate(0px);
+    }
+}
+@keyframes pictureAppear {
+   0%{
+      opacity:0;
+   }
+    45%{
+        opacity: 0;
+        transform: translateY(-70px);
+    }
+    90%{
+       opacity: 0;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes textAppear {
+    0%{
+        opacity:0;
+    }
+    45%{
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    90%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
