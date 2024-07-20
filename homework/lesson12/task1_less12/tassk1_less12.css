@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-------- header --------*/
+header{
+    margin-top: 20px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header>div{
+    width: 90vw;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header>div>div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+    gap: 10px;
+    margin-left: 100px;
+}
+header>div>div>img{
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+}
+header>div>div>p{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+header>div>div:last-child{
+    margin-right: 50px;
+}
+header>div>div:last-child>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+.registration_button_holder>div{
+    width: 128px;
+    height: 44px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: black;
+}
+/*-------- main --------*/
+main{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main>form{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+main>form>button{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+main>form>label>input{
+    width: 300px;
+    height: 40px;
+    border: none;
+}
+main>form>button:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    background-color: grey;
+}
+
+main>form>button:first-child>img,main>form>button:last-child>img{
+    width:32px;
+    height: 32px;
+}
+main>form>button:last-child{
+    background-color: #FFFFFF;
+    border: none;
+}
+main>h2{
+    width: 450px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+
+}
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
