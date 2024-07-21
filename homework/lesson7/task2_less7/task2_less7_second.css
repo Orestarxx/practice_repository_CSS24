@@ -1,0 +1,76 @@
+main>section:last-child{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main>section:last-child>h1{
+    color: #142823;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+main>section:last-child>div{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 47px;
+
+}
+main>section:last-child>div>div:nth-child(n){
+    width: 285px;
+    height: 331px;
+    border-radius: 32px;
+    background: white;
+    padding: 20px;
+    /* 200 */
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    position: relative;
+}
+main>section:last-child>div>div:nth-child(n)>p{
+    width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.name_of_shoes{
+    color: #282828;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.rated{
+    width: 165px;
+    height: 60px;
+    border-radius: 30px;
+    position: absolute;
+    top: -10px;
+    right: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.star{
+    margin-right: 5px;
+}
+main>section:last-child>div>div>p:last-child:nth-child(odd){
+    color: red;
+}
+main>section:last-child>div>div>p:last-child:nth-child(even){
+    color: cornflowerblue;
+}
+main>section:last-child>div>div>p:last-child:nth-child(n){
+    font-size: 24px;
+    font-weight: 700;
+}
