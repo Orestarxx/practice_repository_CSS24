@@ -1,0 +1,23 @@
+#second_section {
+    width:100%;
+    height: 764px;
+    background: #071341;
+    /*display: flex;*/
+    /*align-items: center;*/
+
+}
+.temperature_holder{
+    width: 1130px;
+    height: 56px;
+    border: 1px solid;
+    display: flex;
+    margin: 0 115px 0 155px;
+}
+.temperature_holder>div{
+    display: flex;
+}
+.temperature_holder>div>div:first-child{
+    width: 56px;
+    height: 56px;
+    border: 1px solid;
+}
