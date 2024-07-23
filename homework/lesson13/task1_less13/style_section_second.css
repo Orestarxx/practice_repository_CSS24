@@ -4,13 +4,17 @@
     background: #071341;
     display: flex;
     align-items: center;
-
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
 }
 .temperature_holder{
     width: 1130px;
-    height: 56px;
     display: flex;
     margin: 0 115px 0 155px;
+    align-items: center;
+    position: absolute;
+    top: 50px;
 }
 .temperature_holder>div{
     display: flex;
@@ -62,4 +66,56 @@
 }
 .temperature_holder>div>div:last-child{
     margin-left: 32px;
+}
+#second_section>h1{
+    margin-top: 85px;
+    width: 1074px;
+    height: 126px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+}
+#second_section>p{
+    margin-top: 15px;
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+#second_section>div:last-child{
+    width: 1200px;
+    height: 206px;
+    display: flex;
+    margin-top: 58px;
+}
+#second_section>div:last-child>div{
+    width: 208px;
+    height: 206px ;
+    gap: 32px;
+    border-radius: 8px;
+    border: 2px solid  #8E88C1;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+}
+#second_section>div:last-child>div>svg{
+    width: 56px;
+    height: 56px;
+    margin: 44px 80px 26px 77px;
+}
+#second_section>div:last-child>div>p{
+    width: 178px;
+    display: flex;
+    flex-direction: column;
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
 }
