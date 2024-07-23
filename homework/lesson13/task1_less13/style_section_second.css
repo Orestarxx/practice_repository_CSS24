@@ -2,14 +2,13 @@
     width:100%;
     height: 764px;
     background: #071341;
-    /*display: flex;*/
-    /*align-items: center;*/
+    display: flex;
+    align-items: center;
 
 }
 .temperature_holder{
     width: 1130px;
     height: 56px;
-    border: 1px solid;
     display: flex;
     margin: 0 115px 0 155px;
 }
@@ -19,5 +18,48 @@
 .temperature_holder>div>div:first-child{
     width: 56px;
     height: 56px;
-    border: 1px solid;
+}
+.icon_one{
+    border-radius: 8px;
+    background: #FF6853;
+}
+.icon_two{
+    border-radius: 8px;
+    background: #FF537C;
+}
+.icon_three{
+    border-radius: 8px;
+    background: #80D2C4;
+}
+.icon_four{
+    border-radius: 8px;
+    background: #3F50E7;
+}
+.icon_five{
+    border-radius: 8px;
+    background: #95CB7C;
+}
+.icon_one, .icon_two, .icon_three, .icon_four, .icon_five{
+    padding: 12px;
+}
+.temperature_holder>div>div:last-child>p:first-child{
+    width: 38px;
+    height: 19px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 3px 0;
+}
+.temperature_holder>div>div:last-child>p:last-child{
+    width: 101px;
+    height: 24px;
+    color:  #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.temperature_holder>div>div:last-child{
+    margin-left: 32px;
 }
