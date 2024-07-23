@@ -1,0 +1,57 @@
+main>section:first-child{
+    width: 1110px;
+    height: 505px;
+    background: #F1DDC9;
+    margin: 90px 165px 0 165px;
+    display: flex;
+}
+section:first-child>img{
+    margin: 14px 0 24px 0;
+}
+section:first-child>div{
+    width: 529px;
+    height: 505px;
+    margin-left: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section:first-child>div>p:first-child{
+    height: 160px;
+    margin-left: 0;
+    color: #333;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+    margin-bottom:31px ;
+    margin-top: 50px;
+}
+section:first-child>div>p:last-child{
+    width: 529px;
+    height: 66px;
+    color: #333;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin: 30px 0 0 0;
+}
+section:first-child>div>button{
+    width: 208px;
+    height: 62px;
+    margin-left: 0;
+   margin-top: 70px;
+    margin-bottom: 50px;
+    background: #D84727;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 0.4px;
+}

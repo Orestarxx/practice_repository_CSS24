@@ -1,0 +1,60 @@
+.second{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.second>div:first-child{
+    width: 1110px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 79px;
+}
+.second>div:first-child>h1{
+    margin-left: 0;
+    color: #333;
+    font-family: "Taviraj",sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+.wrap{
+    width: 1110px;
+    height: 278px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 129px;
+}
+.card{
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.04);
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.card>img{
+    width: 221px;
+    height: 221px;
+    position: absolute;
+    top: -15px;
+    margin: 0 16px 0 16px;
+}
+.card>p{
+    color: #333;
+    font-family: "Taviraj",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    margin: 32px 0 32px 24px;
+}
