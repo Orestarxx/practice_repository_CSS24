@@ -1,0 +1,27 @@
+@media screen and (min-width: 480px) and (max-width: 1023px){
+    header>nav{
+        gap: 20px;
+    }
+    header>nav>a>div{
+        width: 60px;
+    }
+    main>h1{
+        margin: 40px 100px 0 0;
+    }
+    .wrap>div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrap>div>article{
+        width: 49%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .wrap>div>article>h1{
+        transform: rotate(-90deg);
+        margin-top: 60px;
+
+    }
+}
