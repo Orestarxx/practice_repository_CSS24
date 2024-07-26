@@ -1,0 +1,29 @@
+@media screen  and (min-width:0) and (max-width:479px){
+    main>div:last-child{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 32px;
+    }
+    main>h1{
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+    main>p{
+        width: 200px;
+        font-size: 10px;
+        margin-top: 0;
+        /*margin-bottom: 32px;*/
+    }
+    main>div>div>p{
+        font-size: 10px;
+    }
+    main>div>button{
+        height: 44px;
+        font-size: 10px;
+         margin: 0 0 42px 0;
+
+    }
+}
