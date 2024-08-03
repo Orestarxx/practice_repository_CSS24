@@ -1,0 +1,60 @@
+@media screen  and (min-width: 0) and (max-width: 375px){
+    main{
+        width: 375px;
+        height: 647px;
+    }
+    .wrap{
+        width: 343px;
+        display: block;
+        height: 583px;
+        margin: 32px 16px;
+        gap: 24px;
+    }
+    .first_division, .second_division{
+        width: 100% ;
+    }
+    .first_division{
+        margin-left: 0;
+        height: 366px;
+    }
+    .second_division{
+        height: 96px;
+        margin-top: 24px;
+    }
+    .first_division>div:first-child{
+        margin-bottom: 16px;
+    }
+    .first_division>div:first-child>button{
+        display: flex;
+        padding: 8px 16px;
+        align-items: flex-start;
+        gap: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%; /* 19.6px */
+        margin-right: 24px;
+    }
+    .first_division>h1{
+        width: 343px;
+        height: 76px;
+        color:  #000;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 120%; /* 38.4px */
+        margin-bottom: 16px;
+    }
+    .first_division>ul{
+        width: 300px;
+        color:  #3C3C43;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%; /* 25.2px */
+        margin: 0 0 16px 23px;
+    }
+    .first_division>ul>li{
+        height: 50px;
+    }
+    .first_division>button:last-child{
+        margin: 0 0 0 0;
+    }
+}
