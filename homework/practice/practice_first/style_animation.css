@@ -1,0 +1,60 @@
+.wrap>header>nav{
+animation: navAnimation 1s linear 1;
+}
+.wrap>main>section:first-child{
+animation: sectionOneAnimation 1s linear 1;
+}
+.wrap>main>section:last-child{
+    animation: sectionTwoAnimation 1s linear 1;
+}
+.wrap>header>nav>img{
+    animation: iconAnimation 2s linear 1;
+
+}
+@keyframes navAnimation {
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+@keyframes sectionOneAnimation {
+     from{
+         transform: translateX(-100px);
+     }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes sectionTwoAnimation {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes iconAnimation {
+    0%{
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    25%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    50%{
+        opacity: 0;
+        transform: translateY(-75px);
+    }
+    75%{
+
+        transform: translateY(-50px);
+
+    }
+    100% {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
